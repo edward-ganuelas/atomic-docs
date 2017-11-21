@@ -1,0 +1,26 @@
+{
+  "name": "atomic-docs",
+  "version": "1.0.0",
+  "description": "Adding yarn, webpack to atomic docs fork",
+  "main": "main.js",
+  "repository": "https://github.com/edward-ganuelas/atomic-docs.git",
+  "author": "Edward Ganuelas <epganuelas@gmail.com>",
+  "license": "GPL",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
